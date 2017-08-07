@@ -1,0 +1,294 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.header{
+    width:100%;
+    margin:auto;
+    font-size:10px;
+    font-family: impact;
+    color:white;
+}
+.header_block, .content_block, .footer_block{
+    width: 779px;
+    margin:auto;
+}
+.header_block{
+    background: url(images/header.png);
+    height:300px;
+}
+.header_logo{
+    margin-top:65px;
+    margin-left:24px;
+    float:left;
+}
+.header_menu{
+    width:455px;
+    float:left;
+    margin-left:92px;
+}
+.flower{
+    width:335px;
+    height:230px;
+    background: url(images/flower.png);
+    float:right;
+}
+.green_button, .blue_button, .yellow_button, .red_button{
+    width:130px;
+    max-height:28px;
+    border-radius:11px;
+    margin-top:2px;
+    padding-top:8px;
+    padding-bottom:8px;
+    padding-left:25px;
+}
+.green_button{
+    background: #83b60f;
+    border:1px solid #83b60f;  
+    background:linear-gradient(120deg, #e0f131 , #83b60f 25%);
+    margin-top:24px;
+    margin-left:6px;
+}
+.blue_button{
+    background: #699cd9;
+    background:linear-gradient(120deg, #bee8fb , #699cd9 25%);
+    border:1px solid #699cd9;  
+    margin-left:19px;
+}
+.yellow_button{
+    background: #febd2b;
+    background:linear-gradient(120deg, #ffea64 , #febd2b 25%);
+    border:1px solid #febd2b;  
+    margin-left:39px;  
+}
+.red_button{
+    background: #f67a76;
+    background:linear-gradient(120deg, #f9d4cf , #f67a76 25%);
+    border:1px solid #f67a76;  
+    margin-left:58px;
+}
+.header_link{
+    color:white;
+    text-decoration:none;   
+}
+.green_button:hover{
+    background: #4aec03;
+    background:linear-gradient(120deg, #eafb5d , #4aec03 25%);
+    border:1px solid #83b60f;  
+    cursor:pointer;
+}
+.blue_button:hover{
+    background: #0ab1a7;
+    background:linear-gradient(120deg, #d5e6f0 , #0ab1a7 25%);
+    border:1px solid #699cd9;  
+    cursor:pointer;
+}
+.yellow_button:hover{
+    background: #e3f104;
+    background:linear-gradient(120deg, #f4e388 , #e3f104 25%);
+    border:1px solid #febd2b;  
+    cursor:pointer;
+}
+.red_button:hover{
+    background: #eb2922;
+    background:linear-gradient(120deg, #ce918b, #eb2922 25%);
+    border:1px solid #f67a76;  
+    cursor:pointer;
+}
+
+.content{
+    margin:0 auto;
+    width:100%;
+    margin-top:-53px;
+    font-family: Tahoma;
+    padding-bottom:20px;
+}
+.content_block:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.first_block{
+    width:400px;
+    float:left;
+}
+.first_block:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.second_block{
+    width:350px;
+    float:left;
+}
+.second_block:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.first_block_column, .second_block_column{
+    float: left;
+    font-size:10px;
+}
+.first_block_column{
+    width:157px; 
+    margin-left:23px;
+    margin-top:-7px;
+}
+p{
+    text-align: justify;
+    margin-bottom: 13px;   
+    line-height: 12px;
+}
+p+p{
+    margin-top:-1px;
+}
+.second_block_column{
+    width:95px; 
+    float: left;
+    padding-left:15px;
+}
+.first_paragraph_image{
+    height:63px;
+    width:142px;
+    background: white;
+    padding:1px;
+    border:1px solid rgb(129,178,18);
+}
+.third_paragraph_image, .forth_paragraph_image, .fifth_paragraph_image{
+    width:90px;
+    height:90px;
+    border:1px solid #d6d6d6;
+    border-radius:15px;
+    margin-left:-2px;
+    position:relative; top:0; left:0;
+     background-repeat:no-repeat;
+    background-position:center;
+    padding:1px;
+}
+.third_paragraph_image{
+    background: url(images/teacher_image.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    padding:1px;
+}
+.forth_paragraph_image{
+    background: url(images/teacher_image_two.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    padding:1px;
+}
+.fifth_paragraph_image{
+    background: url(images/teacher_image_three.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    padding:1px;
+}
+.picture_arrow{
+    width:40px;
+    height:18px;
+    position: absolute; 
+    right:0;
+    bottom:1px;
+    border-radius: 13px 0px 15px 6px;
+    background: url(images/teacher_image_arrow.png);
+    background-color:white;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+.picture_arrow:hover{
+    cursor:pointer;
+    background:url(images/readmore_arrow.png);
+    background-color:white;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+.readmore_button{
+    color:#699dda;
+    text-align:right;
+    font-size:8px;
+    font-weight:bold;
+}
+.readmore_button:hover{
+    color:#093e7b;
+    cursor:pointer;
+}
+.readmore_button_first{
+    padding-top:1px;
+}
+.readmore_button_second{
+    padding-top:18px;
+}
+.first_paragraph_headline, .headline_best_teachers{
+    color: rgb(129,178,18);
+    font-weight:bolder;
+    margin-bottom:13px;
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:12px; 
+}
+.first_paragraph_headline{
+    margin-top:7px;
+}
+.first_paragraph_headline:hover, .headline_best_teachers:hover{
+    color:#207e07;
+    cursor:pointer;
+}
+.headline_best_teachers{
+    padding-left:14px;
+}
+.teacher_name{
+    font-weight:bold;
+    font-size:9px;
+    margin-top:8px;
+}
+.readmore_button_third, .readmore_button_forth, .readmore_button_fifth{
+    padding-right:3px;
+}
+.readmore_button_forth{
+    padding-top:22px;
+}
+.readmore_button_fifth{
+    padding-top:11px;
+}
+.last_paragraph{
+    margin-bottom:10px;
+}
+.footer{
+    width:100%;
+    border-top:1px solid #e0e0e0;    
+    text-align:center;
+}
+.footer_menu{
+    padding-top:20px;
+}
+li{
+    display: inline;
+}
+li+li:before{
+    content: "•"; 
+    color: rgb(129, 178,18);
+    padding-left:1px;
+    padding-right:4px;
+}
+li a{
+    font-weight:bold;
+    color: #699dda; 
+    text-align: center;
+    text-decoration: none;   
+    font-size:10px;
+    font-family: impact;
+}
+li a:hover{
+    color:#093e7b;
+}
+.footer_caption{
+    font-size:10px;
+    font-family: Tahoma;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:5px;
+    margin-bottom:0;
+    padding-bottom:10px;
+}
